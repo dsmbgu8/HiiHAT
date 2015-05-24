@@ -1,5 +1,4 @@
-# HiiHAT
-Hyperspectral Image Interactive Holistic Analysis Toolkit (HiiHAT)
+# Hyperspectral Image Interactive Holistic Analysis Toolkit (HiiHAT)
 http://hyperspectral.jpl.nasa.gov/
 
 OVERVIEW
