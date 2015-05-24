@@ -1,0 +1,13 @@
+ENVI
+band names={b1,b2,b3}
+bands=3
+byte order=0
+data type=4
+description={Noisy data (var=5.000)}
+header offset=0
+interleave=bip
+lines=60
+samples=60
+wavelength={1,2,3}
+x start=0
+y start=0

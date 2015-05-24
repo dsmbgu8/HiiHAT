@@ -1,0 +1,28 @@
+# File: 11class_noisy.dscr
+# Created by: Erzse'bet Mere'nyi, Dec. 2003
+# Modified by: B. Bue, Jul. 2011
+#
+# Details of spatial layout and spectral signatures provided in doc/data.html
+
+*** Data Cubes *** 
+
+11class-layout1-n_m0v10.viff
+Khoros .VIFF file (1024 byte header) for 11-class data cube with gaussian noise (m=0,v=10), 128x128x6, float
+
+*** ENVI format images ***
+
+11class-layout1-n_m0v10.img, 11class-layout1-n_m0v10.img.hdr
+ENVI image and ENVI header files for 11-class data cube with gaussian noise (m=0,v=10, same as 11class-layout1-n_m0v5.xv)
+
+
+*** Reference Images and Truth Labels *** 
+
+11class-layout1-all.incl		
+truth label file, all pixels of each of the 11 classes are labeled
+
+11class-layout1.map.img, 11class-layout1.map.img.hdr
+ENVI classification image (truth labels) and corresponding ENVI header (same as 11class-layout1.map)
+
+
+
+

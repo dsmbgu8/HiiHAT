@@ -1,0 +1,18 @@
+# 8class-caseI-all.incl
+# 8-class all pixels of each class are labelled
+
+# The class sizes are A,B 64x64, C,O 32x64, D,H,I,M 32x32
+
+include area 1 1  64 64 A
+include area 65 65 128 128 B
+include area 65 1 96 64  C
+include area 97 1 128 32  D
+
+include area 33 65 64 128 O
+
+include area 97 33 128 64 H
+
+include area  1 65  32 96 I
+
+include area 1 97  32 128 M
+

@@ -1,0 +1,27 @@
+# 11class-caseI-all.incl
+# 11-class all pixels of each class are labelled
+
+# 8 classes are the same as 8-class case I data set, and 3 rare classes are
+# added.
+# The details of the rare classes are as follows:
+# Class Size (no. of pixels)   Begin/End Co-ordinates(x,y)   Inserted Signature
+# 16 by 8 = 128                  (30,21)  (45,28)  [0, 42, 147, 168, 84, 21]
+# 16 by 4 = 64                   (25,81)  (40,84)  [210, 189, 168, 84, 126, 189]
+# 4 by 4 = 16                    (101,30) (104,33) [231, 189, 147, 105, 63, 0]
+
+include area 1 1  64 64 A
+include area 65 65 128 128 B
+include area 65 1 96 64  C
+include area 97 1 128 32  D
+
+include area 33 65 64 128 O
+
+include area 97 33 128 64 H
+
+include area  1 65  32 96 I
+
+include area 1 97  32 128 M
+
+include area 30  21  45  28 T
+include area 25  81  40  84 Y
+include area 101 30  104 33 R

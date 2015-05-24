@@ -1,0 +1,85 @@
+HiiHAT Changelog v1.02 - v1.03
+Brian Bue (bbue@jpl.nasa.gov)
+David Thompson (drt@jpl.nasa.gov)
+
+01/05/12: 
+17:29 Changeset [477] by bbue
+   Updated idldoc distribution for ENVI 4.8/IDL 8.0 
+
+09/14/11:
+17:29 Changeset [476] by bbue
+   Updated docs and user guide for final Harvest release
+15:04 Changeset [475] by bbue
+    Added 6d_synthetic data README
+15:04 Changeset [474] by bbue
+    Reorganized and added description files for 6d_synthetic data
+14:31 Changeset [472] by bbue
+    Deleted unused 5class_noiseless 6_d synthetic data
+
+08/31/11:
+09:24 Changeset [466] by bbue
+    Updated README, hiihat.cfg
+
+08/30/11:
+19:39 Changeset [461] by bbue
+    Added HiiHAT version string to menu. 
+19:38 Changeset [460] by bbue
+    Removed function to convert microns to nm (in favor of simply scaling wavelengths by 1000)
+
+08/29/11:
+08:59 Changeset [456] by bbue
+   Quick fixes for uninitialized keywords and missing variables in autoclas function
+08:14 Changeset [454] by bbue
+    Minor fixes to transform functions, cleaned up menu options.
+
+08/02/11:
+15:32 Changeset [451] by bbue
+    Added checks for zeroed and redundant spectra, enable using the check_endmember_redundancy flag in hiihat.cfg.
+
+08/01/11:
+16:34 Changeset [446] by bbue
+    Fixes to "robust" mean spectra calculation, now handles zeroed and very large spectral values appropriately. 
+14:28 Changeset [445] by bbue
+    Reordered metric learning transform function in summary classification code.
+11:17 Changeset [444] by bbue
+    Added check for transform vs. image to prevent dimension mismatches.
+10:50 Changeset [443] by bbue
+    Update to autoclass to output transformed image to file, minor changes to transform_ask_params and removal of transform preprocessed image from menu 
+10:47 Changeset [441] by bbue
+    Fixed issues with file interleaving, now writes only BSQ files
+10:07 Changeset [438] by bbue
+    Added option to filter negative spectral values in preprocessing 
+
+
+07/19/11:
+09:55 Changeset [420] by bbue
+    Updated metric learning functions to facilitate applying existing metric learned transforms to new imagery.
+09:46 Changeset [419] by bbue
+    Added data/transforms directory
+
+07/17/11:
+17:09 Changeset [412] by drt
+    Added files to support M3 tests to data/future
+
+07/16/11:
+09:27 Changeset [408] by drt
+    Added a hiihat_apply_metric routine based on hiihat_learn_metric. 
+
+07/11/11:
+19:42 Changeset [403] by bbue
+    Fix for strreplace downcasing bug causing problems with MRDR preprocessing.
+
+19:14 Changeset [402] by bbue
+    Added functionality to save metric learned transform matrix to file
+
+07/08/11:
+13:21 Changeset [395] by drt
+    USGS endmember files, and mixtures computed for SMACC unit tests. Formats documented in README.txt
+
+06/28/11:
+07:14 Changeset [392] by bbue
+    Replaced "Mean" and "MeanColumn" with "Spatial" and "Spectral" mean division descriptions.
+
+07:10 Changeset [390] by bbue
+    Fixed issue on windows machines with incorrect path separator.
+

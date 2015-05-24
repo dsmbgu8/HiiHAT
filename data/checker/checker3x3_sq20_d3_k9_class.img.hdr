@@ -1,0 +1,16 @@
+ENVI
+band names={b1}
+bands=1
+byte order=0
+class lookup={0, 0, 0, 28, 113, 199, 56, 227, 142, 85, 85, 85, 113, 199, 28, 142, 56, 227, 170, 170, 170, 199, 28, 113, 227, 142, 56}
+class names={0, 1, 2, 3, 4, 5, 6, 7, 8}
+classes=9
+data type=13
+description={Class map}
+file type=Classification
+header offset=0
+interleave=bip
+lines=60
+samples=60
+x start=0
+y start=0

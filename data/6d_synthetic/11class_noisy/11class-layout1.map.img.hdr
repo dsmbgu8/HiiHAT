@@ -1,0 +1,16 @@
+ENVI
+band names={b}
+bands=1
+byte order=0
+class lookup={127, 133, 182, 255, 0, 0, 255, 255, 255, 0, 255, 0, 252, 228, 98, 254, 146, 43, 47, 146, 255, 164, 0, 175, 180, 180, 180, 255, 76, 252, 179, 175, 255, 213, 255, 0}
+class names={'bg', 'A', 'B', 'C', 'D', 'H', 'I', 'M', 'O', 'R', 'T', 'Y'}
+classes=12
+data type=1
+description={CTAB.toENVI}
+file type=Classification
+header offset=0
+interleave=bsq
+lines=128
+samples=128
+x start=0
+y start=0

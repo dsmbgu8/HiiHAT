@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+
+
+   <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+   <title>Description of 6D Synthetic Data Sets</title>
+   <link rel="stylesheet" href="data_files/hypereye.css" type="text/css">
+</head><body>
+<!-- <base href="http://argus.ece.rice.edu/data_example/Figs/"> -->
+
+<h1>
+Data set descriptions</h1>
+
+<hr>
+<p>
+All four data sets are 128×128 pixel images where each pixel has a 6-dimensional vector associated with it. The different spectral classes are distributed
+over subareas of the 128×128 image. Below, we describe the spectral
+signatures and populations for our <a href="#5class">5-class</a>,
+<a href="#8class">8-class</a> and <a href="#11class">11-class</a> data sets.</p>
+
+<p>
+Within each subdirectory there are the following 5 files:
+<table>
+  <tr><td>Nclass[-noise params].viff</td><td>Khoros format image file</td></tr>
+  <tr><td>Nclass[-noise params].viff.hdr</td><td>ENVI header for image file</td></tr>
+    <tr><td>Nclass_map.img</td><td>ENVI format class map image</td></tr>
+    <tr><td>Nclass_map.img.hdr</td><td>ENVI header for class map image</td></tr>
+    <tr><td>Nclass_map.incl</td><td>Pixel positions of classes in class map image</td></tr>
+</table>
+</p>
+
+<h2><a name="5class"></a>5-class data set</h2>
+
+<p>&nbsp;&nbsp;&nbsp; This data set consists of 5 spectral classes distributed
+over the subareas of the 128×128 spectral image. The classes B, C
+and D occupy 4096 pixels each, class A has 4095 pixels and class U is a
+rare class which has only one pixel. The rare class U has a distinctly
+different signature than the other classes. This is a noiseless data set:
+all the vectors belonging to a particular class are exactly the same. The
+signatures of the various classes and their distribution over the subareas
+of the image are shown below:</p>
+
+<table width="60%" align="CENTER" border="1" cellpadding="0" cellspacing="2">
+ <tbody><tr>
+  <td align="CENTER"><b>Classes and the no. of pixels they occupy</b></td>
+
+  <td align="CENTER"><b>The 5-class Image and signatures of the classes</b></td>
+ </tr>
+
+ <tr>
+  <td valign="TOP">
+  <table width="100%" border="1" cellpadding="2" cellspacing="2">
+   <tbody><tr>
+    <td align="CENTER"><u>Class</u></td>
+    <td align="CENTER"><u>No. of pixels</u></td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">A</td>
+    <td align="CENTER">4095</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">C</td>
+    <td align="CENTER">4096</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">E</td>
+    <td align="CENTER">4096</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">K</td>
+    <td align="CENTER">4096</td>
+   </tr>
+
+   <tr>
+     <td align="CENTER">U</td>
+     <td align="CENTER">1</td>
+   </tr>
+  </tbody></table>
+  </td>
+
+  <td align="CENTER"><img src="data_files/Signatures-5_class_data.bmp" alt="Signatures of the 5-class data set" width="231" height="401" border="0"></td>
+ </tr>
+</tbody></table>
+
+
+
+<h2><a name="8class"></a>8-class data set</h2>
+
+<p>&nbsp;&nbsp;&nbsp; This data set consists of 8 spectral classes distributed
+over the subareas of the 128×128 spectral image. This is a noisy
+data set: vectors belonging to a particular class differ slightly from
+each other. In this case, additive Gaussian noise (mean=0, var=5.0) has been applied.
+The mean signatures of the various classes and their distribution over
+the subareas of the image are shown in the following figure.</p>
+
+<table width="75%" align="CENTER" border="1" cellpadding="2" cellspacing="2">
+ <tbody><tr>
+  <td align="CENTER"><b>Classes and the no. of pixels they occupy</b></td>
+
+  <td align="CENTER"><b>The 8-class Image</b></td>
+
+  <td align="CENTER"><b>Mean signatures of the 8-class data set</b></td>
+ </tr>
+
+ <tr>
+  <td valign="TOP">
+  <table width="100%" border="1" cellpadding="2" cellspacing="2">
+   <tbody><tr>
+    <td align="CENTER"><u>Class</u></td>
+
+    <td align="CENTER"><u>No. of pixels</u></td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">A</td>
+    <td align="CENTER">4096</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">B</td>
+    <td align="CENTER">4096</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">C</td>
+    <td align="CENTER">2048</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">D</td>
+    <td align="CENTER">1024</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">H</td>
+    <td align="CENTER">1024</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">I</td>
+    <td align="CENTER">1024</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">M</td>
+    <td align="CENTER">1024</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">O</td>
+    <td align="CENTER">2048</td>
+   </tr>
+
+  </tbody></table>
+  </td>
+
+  <td valign="TOP" align="CENTER"><br>
+  <img src="data_files/cetin_8class-n5_image.bmp" alt="8-class data set image" width="132" height="130"></td>
+
+  <td valign="TOP" align="CENTER"><img src="data_files/signatures_cetin_8class-n5.bmp" alt="Signatures of the 8-class data set" width="245" height="387"></td>
+ </tr>
+</tbody></table>
+
+
+<h2><a name="11class"></a>11-class data set</h2>
+
+<p>&nbsp;&nbsp;&nbsp; This data set consists of 11 spectral classes distributed
+over the subareas of the 128×128 spectral image. This is a noisy
+data set: vectors belonging to a particular class differ slightly from
+each other. On the average, about 10% of Gaussian noise has been added.
+The mean signatures of the various classes and their distribution over
+the subareas of the image are shown in the following figure.</p>
+
+<table width="75%" align="CENTER" border="1" cellpadding="2" cellspacing="2">
+ <tbody><tr>
+  <td align="CENTER"><b>Classes and the no. of pixels they occupy</b></td>
+
+  <td align="CENTER"><b>Mean signatures of the 11-class data set</b></td>
+ </tr>
+
+ <tr>
+  <td valign="TOP">
+  <table width="100%" border="1" cellpadding="2" cellspacing="2">
+   <tbody><tr>
+    <td align="CENTER"><u>Class</u></td>
+
+    <td align="CENTER"><u>No. of pixels</u></td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">A</td>
+    <td align="CENTER">3968</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">B</td>
+    <td align="CENTER">4096</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">C</td>
+    <td align="CENTER">2048</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">D</td>
+    <td align="CENTER">1012</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">H</td>
+    <td align="CENTER">1020</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">I</td>
+    <td align="CENTER">992</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">M</td>
+    <td align="CENTER">1024</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">O</td>
+    <td align="CENTER">2016</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">R</td>
+    <td align="CENTER">16</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">T</td>
+    <td align="CENTER">128</td>
+   </tr>
+
+   <tr>
+    <td align="CENTER">Y</td>
+    <td align="CENTER">64</td>
+   </tr>
+
+  </tbody></table>
+  </td>
+
+  <td valign="TOP" align="CENTER"><img src="data_files/Signatures-11_class_data.bmp" alt="Signatures of the 11-class data set" width="309" height="699"></td>
+ </tr>
+</tbody></table>
+<br /><br />
+
+Copyright 2010-2011, Erzs&eacute;bet Mer&eacute;nyi (erzsebet@rice.edu), Rice University.
+
+</body></html>
